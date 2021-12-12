@@ -53,8 +53,6 @@ elsif memo_type2 == 3
   end
   open("#{name}.csv",'a'){|name|
   i.times do
-    p"#{i}"
-    p"#{w[e]}"
     name << w[e]
     e =e+1
   end
